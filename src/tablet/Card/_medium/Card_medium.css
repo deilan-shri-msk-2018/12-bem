@@ -1,0 +1,10 @@
+.Card_type_medium {
+  max-width: 516px;
+  grid-column: span 6;
+  max-height: 305px;
+  align-items: flex-start;
+
+}
+
+
+

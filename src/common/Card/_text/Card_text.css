@@ -1,0 +1,29 @@
+.Card_type_text {
+  position: relative;
+}
+
+.Card_type_text .Card-content {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.Card_type_text .Card-title {
+  position: absolute;
+  max-height: 72px;
+  overflow: hidden;
+
+}
+
+.Card_type_text .Card-description {
+  flex-grow: 1;
+  width: 100%;
+  margin-top: 62px;
+}
+
+.Card_type_text .Card-feedback {
+  justify-content: space-between;
+  align-items: center;
+  height: 25px;
+}
+
+

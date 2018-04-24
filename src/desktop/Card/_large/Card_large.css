@@ -1,0 +1,10 @@
+.Card_type_large {
+  max-height: 365px;
+  flex-direction: row;
+  grid-column: span 12;
+}
+
+.Card_type_large .Card-content {
+  width: 320px;
+}
+

@@ -1,0 +1,34 @@
+.Card {
+  display: flex;
+  position: relative;
+}
+
+.Card-title {
+  top: 0;
+  background-color: white;
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+  padding-bottom: 8px;
+}
+
+.Card-description {
+  font-size: 14px;
+  width: 90%;
+  overflow: hidden;
+  text-overflow: clip;
+  margin: 0;
+  line-height: 20px;
+  position: relative;
+}
+
+.Card-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Card-feedback {
+  display: flex;
+  cursor: pointer;
+}
+

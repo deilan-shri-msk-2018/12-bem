@@ -1,0 +1,9 @@
+.Card_type_text {
+  max-width: 224px;
+  max-height: 224px;
+  grid-column: span 6;
+}
+
+.Card_type_text .Card-description {
+  max-height: 160px;
+}

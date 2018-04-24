@@ -1,0 +1,27 @@
+.Card_type_large {
+  grid-column: span 12;
+}
+
+.Card_type_large .Card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-left: 16px;
+}
+
+.Card_type_large .Card-description {
+  flex-grow: 1;
+  max-height: calc(1.6vw * 10);
+}
+
+.Card_type_large .Card-feedback {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 0;
+}
+
+.Card_type_large .Card-title-container {
+  position: relative;
+  height: auto;
+}

@@ -1,0 +1,22 @@
+.Card_type_medium {
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.Card_type_medium .Card-title {
+  position: absolute;
+}
+
+.Card_type_medium .Card-image-container {
+  margin-top: 55px;
+}
+
+.Card_type_medium .Card-description {
+  max-height: 62px;
+}
+
+.Card_type_medium .Card-feedback {
+  flex-direction: column;
+  justify-content: space-around;
+}

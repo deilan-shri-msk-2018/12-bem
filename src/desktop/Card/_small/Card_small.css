@@ -1,0 +1,4 @@
+.Card_type_small {
+  max-width: 336px;
+  grid-column: span 4;
+}

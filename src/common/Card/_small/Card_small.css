@@ -1,0 +1,33 @@
+.Card_type_small {
+  flex-direction: column;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.Card_type_small .Card-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.Card_type_small .Card-image-container {
+  margin-top: 52px;
+}
+
+.Card_type_small .Card-feedback {
+  justify-content: space-between;
+  flex-direction: column;
+  height: 100%;
+  align-self: flex-end;
+  margin-right: 10px;
+  z-index: 100;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  max-height: 72%;
+}
