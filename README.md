@@ -9,7 +9,3 @@
 # Сборка
 
 `npm run build` или `yarn run build`
-
-# Тесты
-
-`npm test` или `yarn test`
