@@ -8,7 +8,6 @@ export default declMod(
     content({ card: { title, titleColor, image, description } }) {
       return (
         <Fragment>
-          {this.__base(...arguments)}
           <Bem elem="image-container">
             <picture>
               <source

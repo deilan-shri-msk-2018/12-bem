@@ -6,7 +6,6 @@ export default declMod({ type : 'medium' }, {
   content({card: {title, titleColor, image, description}}) {
     return (
       <Fragment>
-        {this.__base(...arguments)}
         <Bem elem="title-container" tag="header">
           <Bem elem="title" tag="h2" style={{color: titleColor}}>{title}</Bem>
         </Bem>

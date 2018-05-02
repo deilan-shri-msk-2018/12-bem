@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import { decl, Bem } from 'bem-react-core';
 
 import 'e:Logo';
@@ -8,10 +8,6 @@ export default decl({
   block: 'Header',
   tag: 'header',
   content() {
-    return (
-      <Fragment>
-        <Bem elem="Logo" tag="img" src={logoSvg} alt="logo"/>
-      </Fragment>
-    );
+    return <Bem elem="Logo" tag="img" src={logoSvg} alt="logo"/>;
   }
 });
